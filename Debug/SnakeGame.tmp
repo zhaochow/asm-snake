@@ -1,0 +1,123 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc\m328pdef.inc</FILE>
+  <FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\keyboard.asm</FILE>
+  <FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE>
+  <FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\utilities.asm</FILE>
+  <FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\Debug\SnakeGame.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>SnakeGame.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>SnakeGame.map</FILE>
+  <FILE>SnakeGame.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\main.asm</FILE><LINE>34</LINE></init>
+  <Timer1InterruptStart><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\main.asm</FILE><LINE>94</LINE></Timer1InterruptStart>
+  <ADCInterruptStart><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\main.asm</FILE><LINE>150</LINE></ADCInterruptStart>
+  <KeyMapping><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\keyboard.asm</FILE><LINE>13</LINE></KeyMapping>
+  <GetColNb><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\keyboard.asm</FILE><LINE>23</LINE></GetColNb>
+  <GetRowNb><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\keyboard.asm</FILE><LINE>53</LINE></GetRowNb>
+  <GetBtnNb><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\keyboard.asm</FILE><LINE>84</LINE></GetBtnNb>
+  <GetBtnNbEnd><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\keyboard.asm</FILE><LINE>122</LINE></GetBtnNbEnd>
+  <ScreenInit><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>12</LINE></ScreenInit>
+  <StartScreen><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>319</LINE></StartScreen>
+  <LoadScreenImage><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>275</LINE></LoadScreenImage>
+  <WriteBits><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>43</LINE></WriteBits>
+  <WriteBitsLoop><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>50</LINE></WriteBitsLoop>
+  <Display><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>69</LINE></Display>
+  <ColBits><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>85</LINE></ColBits>
+  <ColLoop><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>87</LINE></ColLoop>
+  <Write><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>92</LINE></Write>
+  <RowBits><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>104</LINE></RowBits>
+  <RowLoop><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>106</LINE></RowLoop>
+  <ActiveRow><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>112</LINE></ActiveRow>
+  <RowEnd><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>116</LINE></RowEnd>
+  <Delay><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\utilities.asm</FILE><LINE>18</LINE></Delay>
+  <SetScreenBit><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>148</LINE></SetScreenBit>
+  <GetByteAndMask><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>223</LINE></GetByteAndMask>
+  <ClearScreenBit><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>168</LINE></ClearScreenBit>
+  <GetScreenBit><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>192</LINE></GetScreenBit>
+  <GetScreenBitLoop><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>200</LINE></GetScreenBitLoop>
+  <GetScreenBitEnd><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>207</LINE></GetScreenBitEnd>
+  <GetByteAndMaskRow><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>234</LINE></GetByteAndMaskRow>
+  <GetByteAndMaskP2><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>243</LINE></GetByteAndMaskP2>
+  <GetByteAndMaskCol><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>245</LINE></GetByteAndMaskCol>
+  <GetByteAndMaskP3><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>253</LINE></GetByteAndMaskP3>
+  <GetByteAndMaskColMask><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>255</LINE></GetByteAndMaskColMask>
+  <GetByteAndMaskEnd><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>262</LINE></GetByteAndMaskEnd>
+  <LoadScreenImageLoop><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\screen.asm</FILE><LINE>296</LINE></LoadScreenImageLoop>
+  <DelayLoop><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\utilities.asm</FILE><LINE>23</LINE></DelayLoop>
+  <RandBits><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\utilities.asm</FILE><LINE>35</LINE></RandBits>
+  <RandBitsLoop><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\utilities.asm</FILE><LINE>45</LINE></RandBitsLoop>
+  <RandBitsEnd><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\utilities.asm</FILE><LINE>66</LINE></RandBitsEnd>
+  <RandRow><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\utilities.asm</FILE><LINE>76</LINE></RandRow>
+  <RandRowEnd><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\utilities.asm</FILE><LINE>90</LINE></RandRowEnd>
+  <RandCol><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\utilities.asm</FILE><LINE>100</LINE></RandCol>
+  <RandColEnd><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\utilities.asm</FILE><LINE>114</LINE></RandColEnd>
+  <SnakeInit><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>24</LINE></SnakeInit>
+  <SnakeGameStart><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>569</LINE></SnakeGameStart>
+  <SnakeStartGame><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>53</LINE></SnakeStartGame>
+  <SnakeStart><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>527</LINE></SnakeStart>
+  <SnakeStartLoop><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>72</LINE></SnakeStartLoop>
+  <SnakeStartP22><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>91</LINE></SnakeStartP22>
+  <SnakeNoWalls><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>531</LINE></SnakeNoWalls>
+  <SnakeStartP23><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>97</LINE></SnakeStartP23>
+  <SnakeWalls><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>550</LINE></SnakeWalls>
+  <SnakeGenFood><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>486</LINE></SnakeGenFood>
+  <SnakeMoveUp><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>126</LINE></SnakeMoveUp>
+  <GetSnakeHead><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>228</LINE></GetSnakeHead>
+  <SnakeMoveUpP2><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>137</LINE></SnakeMoveUpP2>
+  <SnakeUpdate><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>259</LINE></SnakeUpdate>
+  <SnakeMoveDown><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>151</LINE></SnakeMoveDown>
+  <SnakeMoveDownP2><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>163</LINE></SnakeMoveDownP2>
+  <SnakeMoveLeft><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>177</LINE></SnakeMoveLeft>
+  <SnakeMoveLeftP2><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>188</LINE></SnakeMoveLeftP2>
+  <SnakeMoveRight><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>202</LINE></SnakeMoveRight>
+  <SMRUpdate><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>214</LINE></SMRUpdate>
+  <GetSnakeHeadLoop><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>239</LINE></GetSnakeHeadLoop>
+  <SnakeUpdateP2><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>314</LINE></SnakeUpdateP2>
+  <SnakeUpdateP11><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>288</LINE></SnakeUpdateP11>
+  <SnakeUpdateP12><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>304</LINE></SnakeUpdateP12>
+  <SnakeUpdateP13><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>307</LINE></SnakeUpdateP13>
+  <SnakeUpdateEnd><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>358</LINE></SnakeUpdateEnd>
+  <SnakeUpdateP3><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>329</LINE></SnakeUpdateP3>
+  <SnakeGameOver><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>588</LINE></SnakeGameOver>
+  <SnakeUpdateP31><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>345</LINE></SnakeUpdateP31>
+  <SnakeMain><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>372</LINE></SnakeMain>
+  <SnakeDirectionUp><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>393</LINE></SnakeDirectionUp>
+  <SnakeMainEnd><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>473</LINE></SnakeMainEnd>
+  <SnakeMainP21><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>398</LINE></SnakeMainP21>
+  <SnakeDirectionDown><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>404</LINE></SnakeDirectionDown>
+  <SnakeGoUp><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>438</LINE></SnakeGoUp>
+  <SnakeMainP22><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>409</LINE></SnakeMainP22>
+  <SnakeDirectionLeft><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>415</LINE></SnakeDirectionLeft>
+  <SnakeMainP23><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>420</LINE></SnakeMainP23>
+  <SnakeDirectionRight><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>426</LINE></SnakeDirectionRight>
+  <SnakeMainP24><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>431</LINE></SnakeMainP24>
+  <SnakeGoDown><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>444</LINE></SnakeGoDown>
+  <SnakeMainP4><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>463</LINE></SnakeMainP4>
+  <SnakeGoLeft><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>450</LINE></SnakeGoLeft>
+  <SnakeGoRight><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>456</LINE></SnakeGoRight>
+  <SnakeGenFoodP1><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\snake.asm</FILE><LINE>496</LINE></SnakeGenFoodP1>
+  <TimersInit><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\main.asm</FILE><LINE>62</LINE></TimersInit>
+  <ADCInit><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\main.asm</FILE><LINE>133</LINE></ADCInit>
+  <main><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\main.asm</FILE><LINE>45</LINE></main>
+  <ADCInterruptP12><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\main.asm</FILE><LINE>163</LINE></ADCInterruptP12>
+  <ADCInterruptP2><FILE>D:\ZhaoWen\Documents\Atmel Studio\7.0\uC\uC_code\SnakeGame\main.asm</FILE><LINE>167</LINE></ADCInterruptP2>
+ </LABELS>
+</ASSEMBLER_INFO>
